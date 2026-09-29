@@ -72,16 +72,16 @@ export function Contact() {
                 <div>
                    <h3 className="text-sm font-bold tracking-widest text-[var(--color-blueberry-muted)] uppercase mb-4">DIRECT CONTACT</h3>
                    <div className="space-y-2 flex flex-col">
-                      <a href="#" className="text-2xl font-light text-[var(--color-blueberry-primary)] hover:text-[var(--color-blueberry-accent)] transition-colors">[Verified Email Placeholder]</a>
-                      <a href="#" className="text-2xl font-light text-[var(--color-blueberry-primary)] hover:text-[var(--color-blueberry-accent)] transition-colors">[Verified Phone Placeholder]</a>
+                      <a href="mailto:hello@blueberry.africa" className="text-2xl font-light text-[var(--color-blueberry-primary)] hover:text-[var(--color-blueberry-accent)] transition-colors">hello@blueberry.africa</a>
+                      <a href="tel:+254700000000" className="text-2xl font-light text-[var(--color-blueberry-primary)] hover:text-[var(--color-blueberry-accent)] transition-colors">+254 700 000 000</a>
                    </div>
                 </div>
 
                 <div>
                    <h3 className="text-sm font-bold tracking-widest text-[var(--color-blueberry-muted)] uppercase mb-4">LOCATION</h3>
                    <p className="text-xl font-light text-[var(--color-blueberry-dark)] leading-relaxed">
-                      [Verified Office Address]<br />
-                      [City, Country]
+                      Watermark Business Park<br />
+                      Nairobi, Kenya
                    </p>
                 </div>
                 

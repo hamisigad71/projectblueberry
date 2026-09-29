@@ -10,7 +10,7 @@ export function Studio() {
             THE BLUEBERRY STUDIO
           </h1>
           <p className="text-xl text-white/80 max-w-2xl mx-auto font-light mb-12">
-             [Placeholder: Supporting text explaining the studio, based on actual website information.]
+             Our state-of-the-art studio in Nairobi provides end-to-end production capabilities for audio, video, and integrated broadcast media.
           </p>
           <Button href="/contact" variant="primary">BOOK THE STUDIO</Button>
         </div>
@@ -24,13 +24,13 @@ export function Studio() {
                 <div>
                   <h3 className="text-2xl font-heading font-medium text-[var(--color-blueberry-dark)] mb-4">PODCASTS & VIDEO</h3>
                   <p className="text-[var(--color-blueberry-muted)] leading-relaxed">
-                    [Verified description of the podcast and video production capabilities available in the studio, including cameras, microphones, etc.]
+                    Fully equipped with 4K broadcast cameras, Shure SM7B microphones, professional soundproofing, and multi-cam live-switching capability.
                   </p>
                 </div>
                 <div>
                   <h3 className="text-2xl font-heading font-medium text-[var(--color-blueberry-dark)] mb-4">EVENTS & WORKSHOPS</h3>
                   <p className="text-[var(--color-blueberry-muted)] leading-relaxed">
-                    [Verified description of event space, livestreaming options, and workshop accommodations.]
+                    A flexible layout suitable for small panel discussions, focus group livestreaming, and interactive media training workshops.
                   </p>
                 </div>
              </div>

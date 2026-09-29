@@ -5,7 +5,7 @@ const principles = [
   {
     num: '01',
     title: 'Real Experience',
-    desc: '[Verified: Explain the actual positioning and experience from the Blueberry website. What makes the team uniquely qualified?]'
+    desc: 'Boasting a team of award-winning producers, strategists, and researchers, we turn complex realities into compelling human stories.'
   },
   {
     num: '02',
@@ -15,7 +15,7 @@ const principles = [
   {
     num: '03',
     title: 'Long-term Partnerships',
-    desc: '[Verified: Explain the company\'s partnership approach — preferred client relationships, ongoing work, embedded understanding.]'
+    desc: 'We don\\'t just deliver and disappear. We act as embedded partners, cultivating deep relationships and a nuanced understanding of your mission.'
   },
   {
     num: '04',

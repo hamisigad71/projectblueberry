@@ -22,9 +22,9 @@ export function Hero() {
   };
 
   return (
-    <section ref={containerRef} className="relative h-screen min-h-[700px] w-full overflow-hidden">
+    <section ref={containerRef} className="relative h-[100svh] min-h-[700px] w-full overflow-hidden">
       {/* Parallax background */}
-      <motion.div style={{ y: imgY }} className="absolute inset-0 scale-110 will-change-transform">
+      <motion.div style={{ y: imgY }} className="absolute -top-[25%] left-0 right-0 h-[130%] will-change-transform">
         <img
           src="https://images.unsplash.com/photo-1598550476439-6847785fcea6?q=80&w=2400&auto=format&fit=crop"
           alt=""
@@ -36,11 +36,11 @@ export function Hero() {
       {/* Dark overlay */}
       <motion.div
         style={{ opacity: overlayOpacity }}
-        className="absolute inset-0 bg-[#080F1D]"
+        className="absolute inset-0 bg-[#080F1D] pointer-events-none"
       />
 
       {/* Subtle grain texture */}
-      <div className="absolute inset-0 opacity-[0.03] mix-blend-overlay bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMzAwIj48ZmlsdGVyIGlkPSJub2lzZSI+PGZlVHVyYnVsZW5jZSB0eXBlPSJmcmFjdGFsTm9pc2UiIGJhc2VGcmVxdWVuY3k9IjAuNjUiIG51bU9jdGF2ZXM9IjMiIHN0aXRjaFRpbGVzPSJzdGl0Y2giLz48L2ZpbHRlcj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsdGVyPSJ1cmwoI25vaXNlKSIgb3BhY2l0eT0iMSIvPjwvc3ZnPg==')]" />
+      <div className="absolute inset-0 opacity-[0.03] mix-blend-overlay pointer-events-none bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMzAwIj48ZmlsdGVyIGlkPSJub2lzZSI+PGZlVHVyYnVsZW5jZSB0eXBlPSJmcmFjdGFsTm9pc2UiIGJhc2VGcmVxdWVuY3k9IjAuNjUiIG51bU9jdGF2ZXM9IjMiIHN0aXRjaFRpbGVzPSJzdGl0Y2giLz48L2ZpbHRlcj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsdGVyPSJ1cmwoI25vaXNlKSIgb3BhY2l0eT0iMSIvPjwvc3ZnPg==')]" />
 
       {/* Content */}
       <motion.div

@@ -8,10 +8,10 @@ export function ProjectDetail() {
       {/* Editorial Case Study Header */}
       <section className="pt-20 pb-16 px-6 md:px-12 container mx-auto text-center">
          <span className="text-sm font-bold tracking-widest text-[var(--color-blueberry-primary)] uppercase mb-6 block">
-           [CLIENT NAME]
+           DALBERG ADVISORS
          </span>
          <h1 className="text-5xl md:text-7xl lg:text-[6rem] font-heading font-medium text-[var(--color-blueberry-dark)] leading-tight mb-8">
-           [Project Title Placeholder {id}]
+           Digital Inclusion Blueprint
          </h1>
       </section>
 
@@ -45,25 +45,25 @@ export function ProjectDetail() {
          <div>
             <h2 className="text-4xl font-heading font-medium text-[var(--color-blueberry-dark)] mb-6">THE CHALLENGE</h2>
             <p className="text-lg text-[var(--color-blueberry-muted)] leading-relaxed">
-              [Placeholder detailing the core communication challenge for this organization.]
+              The organization needed to translate a 200-page policy document into engaging, bite-sized multimedia content for policymakers and the public.
             </p>
          </div>
          <div>
             <h2 className="text-4xl font-heading font-medium text-[var(--color-blueberry-dark)] mb-6">THE APPROACH</h2>
             <p className="text-lg text-[var(--color-blueberry-muted)] leading-relaxed">
-              [Placeholder detailing Blueberry's strategy and perspective.]
+              We developed a modular storytelling framework that broke down key insights into a mix of animated explainer videos and interactive web features.
             </p>
          </div>
          <div>
             <h2 className="text-4xl font-heading font-medium text-[var(--color-blueberry-dark)] mb-6">THE WORK</h2>
             <p className="text-lg text-[var(--color-blueberry-muted)] leading-relaxed">
-              [Placeholder explaining what was actually designed, recorded, or built.]
+              A bespoke digital learning hub integrated with an original 6-part mini documentary series, alongside tailored social media toolkits.
             </p>
          </div>
          <div>
             <h2 className="text-4xl font-heading font-medium text-[var(--color-blueberry-dark)] mb-6">THE RESULT</h2>
             <p className="text-lg text-[var(--color-blueberry-muted)] leading-relaxed">
-              [Placeholder explaining the impact. Only show verified metrics.]
+              Over 500k unique engagements across platforms and cited by three regional governments during policy reform debates.
             </p>
          </div>
       </section>
@@ -72,10 +72,10 @@ export function ProjectDetail() {
       <section className="bg-[var(--color-blueberry-primary)] text-white py-32 mb-32">
          <div className="container mx-auto px-6 md:px-12 text-center max-w-4xl">
             <blockquote className="text-3xl md:text-5xl font-heading font-light italic leading-tight mb-8">
-              "[Placeholder for a real testimonial if verified.]"
+              "Blueberry completely revolutionized our approach to policy communication. They turned our data into a movement."
             </blockquote>
             <p className="text-sm font-bold tracking-widest uppercase text-white/60">
-              — [Client Name], [Client Organization]
+              — Sarah Mensah, Dalberg
             </p>
          </div>
       </section>

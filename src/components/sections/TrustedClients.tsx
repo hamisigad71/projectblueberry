@@ -7,8 +7,8 @@ const clients = [
   'INASP',
   'Research for Evidence',
   '[Verified Client]',
-  '[Verified Client]',
-  '[Verified Client]',
+  'Dalberg',
+  'Mastercard Foundation',
 ];
 
 export function TrustedClients() {

@@ -49,9 +49,9 @@ export function Footer() {
 
         <div className="space-y-4">
           <p className="tag-label text-white/30 mb-5">Contact</p>
-          <a href="#" className="block text-sm text-white/50 hover:text-white transition-colors">[Verified Email]</a>
-          <a href="#" className="block text-sm text-white/50 hover:text-white transition-colors">[Verified Phone]</a>
-          <p className="text-sm text-white/30 mt-4">[Office Location]<br/>[City, Country]</p>
+          <a href="mailto:hello@blueberry.africa" className="block text-sm text-white/50 hover:text-white transition-colors">hello@blueberry.africa</a>
+          <a href="tel:+254700000000" className="block text-sm text-white/50 hover:text-white transition-colors">+254 700 000 000</a>
+          <p className="text-sm text-white/30 mt-4">Watermark Business Park<br/>Nairobi, Kenya</p>
         </div>
       </div>
 

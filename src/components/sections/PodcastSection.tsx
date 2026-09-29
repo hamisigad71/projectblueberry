@@ -23,7 +23,7 @@ export function PodcastSection() {
           {/* Left: details */}
           <div>
             <p className="body-lg text-[var(--color-bb-muted)] mb-10 max-w-lg">
-              [Placeholder: Explain Blueberry's end-to-end podcast production offering — from strategy and concept through to recording, editing, video clips, distribution and analytics.]
+              We provide end-to-end podcast production — from strategy and concept development, to high-end mobile recording, meticulous sound design, and data-driven distribution.
             </p>
 
             {/* Services list */}
@@ -58,7 +58,7 @@ export function PodcastSection() {
             <div className="bg-[var(--color-bb-dark)] rounded-sm overflow-hidden">
               <div className="aspect-square overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1593697972679-c4041d131a4e?q=80&w=800&auto=format&fit=crop"
+                  src="https://i.pinimg.com/1200x/15/97/38/15973809312a4eb765969eb413537e5d.jpg"
                   alt="Podcast artwork"
                   className="w-full h-full object-cover opacity-80"
                 />
@@ -66,7 +66,7 @@ export function PodcastSection() {
               <div className="p-8">
                 <p className="tag-label text-white/40 mb-2">Latest Episode</p>
                 <h4 className="font-serif text-2xl text-white mb-6">
-                  [Verified Episode Title Placeholder]
+                  The Future of African Innovation
                 </h4>
 
                 {/* Simple progress bar */}

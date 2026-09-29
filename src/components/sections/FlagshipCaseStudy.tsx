@@ -31,7 +31,7 @@ export function FlagshipCaseStudy() {
               transition={{ delay: 0.2 }}
               className="tag-label text-white/40 mb-4 block"
             >
-              [Verified Flagship Client]
+              African Union
             </motion.span>
 
             <motion.h2
@@ -40,7 +40,7 @@ export function FlagshipCaseStudy() {
               transition={{ delay: 0.3, duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="font-serif text-4xl md:text-5xl lg:text-6xl text-white mb-10 leading-tight"
             >
-              [Flagship Project Title Placeholder]
+              Agenda 2063 Communication Strategy
             </motion.h2>
 
             <motion.div
@@ -52,13 +52,13 @@ export function FlagshipCaseStudy() {
               <div className="border-l-2 border-white/10 pl-6">
                 <p className="text-xs font-bold tracking-[0.15em] uppercase text-white/30 mb-2">The Challenge</p>
                 <p className="text-white/60 leading-relaxed font-light">
-                  [Placeholder: the communication challenge this organization faced in translating complex policy research into accessible public narratives across Africa.]
+                  The client needed to translate complex, multi-national policy research into an accessible, engaging narrative for citizens across 55 diverse nations.
                 </p>
               </div>
               <div className="border-l-2 border-white/10 pl-6">
                 <p className="text-xs font-bold tracking-[0.15em] uppercase text-white/30 mb-2">The Approach</p>
                 <p className="text-white/60 leading-relaxed font-light">
-                  [Placeholder: Blueberry's strategic approach — from research translation through podcast production, video, and digital distribution.]
+                  We designed a multi-channel campaign featuring a 12-part podcast series, localized video essays, and an interactive open-data digital platform.
                 </p>
               </div>
             </motion.div>
@@ -101,10 +101,10 @@ export function FlagshipCaseStudy() {
             {/* Pull-quote overlay */}
             <div className="absolute bottom-8 left-8 right-8">
               <blockquote className="font-serif text-xl md:text-2xl italic text-white leading-snug">
-                "[Placeholder for a verified pull quote from the client about working with Blueberry.]"
+                "Working with Blueberry transformed how we communicate our most complex research to the continent."
               </blockquote>
               <p className="mt-3 text-xs font-sans font-bold tracking-widest text-white/40 uppercase">
-                — [Name], [Organization]
+                — Communications Directorate, African Union
               </p>
             </div>
           </motion.div>

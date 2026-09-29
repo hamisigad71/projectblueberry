@@ -10,7 +10,7 @@ const services = [
     subtitle: 'Podcast · Video · Documentary',
     desc: 'We produce podcasts, documentary-style films, and multimedia content that turn complex research and lived experience into content people actually want to engage with.',
     link: '/services/stories',
-    img: 'https://images.unsplash.com/photo-1590602847861-f357a9332bbc?q=80&w=1200&auto=format&fit=crop',
+    img: 'https://i.pinimg.com/1200x/4c/d9/e7/4cd9e77da3977ead9a9a3289114af378.jpg',
   },
   {
     id: '02',
